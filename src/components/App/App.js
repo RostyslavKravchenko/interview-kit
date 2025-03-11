@@ -1,4 +1,3 @@
-import { Button } from '../Button/Button';
 import './App.css';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
         <h1>Interview Kit</h1>
       </header>
       <section className="main">
-        <Button />
+        <input type="text" onChange={() => console.log(1)} placeholder='text' />
       </section>
     </div>
   );
